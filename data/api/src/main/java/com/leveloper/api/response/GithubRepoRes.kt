@@ -7,7 +7,7 @@ data class GithubRepoRes(
     val name: String,
 
     @SerializedName("id")
-    val id: String,
+    val id: Long,
 
     @SerializedName("created_at")
     val date: String,
