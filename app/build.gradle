@@ -11,16 +11,23 @@ dependencies {
     implementation project(":model")
     implementation project(":feature:sample")
     implementation project(":feature:splash")
+    implementation project(":data:api")
     implementation project(":data:db")
     implementation project(":data:repository")
 
     implementation(Kotlin.COROUTINES_CORE)
+    implementation(Kotlin.COROUTINES_ANDROID)
     implementation(Kotlin.KOTLIN_STDLIB)
 
     implementation(AndroidX.CORE_KTX)
     implementation(AndroidX.APP_COMPAT)
     implementation(AndroidX.ROOM_RUNTIME)
     kapt          (AndroidX.ROOM_COMPILER)
+
+
+    implementation(Libraries.RETROFIT)
+    implementation(Libraries.RETROFIT_CONVERTER_GSON)
+    implementation(Libraries.OKHTTP_LOGGING_INTERCEPTOR)
 
     implementation(Google.HILT_ANDROID)
     kapt          (Google.HILT_ANDROID_COMPILER)

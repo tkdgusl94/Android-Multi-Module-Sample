@@ -8,3 +8,5 @@ include ':model'
 
 include ':data:repository'
 include ':data:db'
+include ':data:api'
+include ':feature:Github'

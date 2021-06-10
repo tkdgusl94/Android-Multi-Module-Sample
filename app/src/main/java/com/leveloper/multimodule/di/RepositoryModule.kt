@@ -1,7 +1,7 @@
 package com.leveloper.multimodule.di
 
-import com.leveloper.model.repository.SampleRepository
-import com.leveloper.repository.impl.SampleRepositoryImpl
+import com.leveloper.model.repository.GithubRepository
+import com.leveloper.repository.impl.GithubRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,7 +14,7 @@ object RepositoryModule {
 
     @Singleton
     @Provides
-    fun provideSampleRepository(repository: SampleRepositoryImpl): SampleRepository {
+    fun provideGithubRepository(repository: GithubRepositoryImpl): GithubRepository {
         return repository
     }
 }
