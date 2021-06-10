@@ -1,0 +1,1 @@
+/Users/sanghyun/work/exercise/multimodule/buildSrc/build/classes/kotlin/main/Libraries$Versions.class:/Users/sanghyun/work/exercise/multimodule/buildSrc/build/classes/kotlin/main/Libraries.class
