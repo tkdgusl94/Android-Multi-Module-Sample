@@ -7,6 +7,8 @@ object Versions {
     const val ACTIVITY_KTX = "1.2.3"
     const val FRAGMENT_KTX = "1.3.4"
     const val LIFECYCLE_VIEWMODEL_KTX = "2.3.1"
+    const val ROOM = "2.3.0"
+
     const val HILT = "2.35.1"
     const val MATERIAL = "1.3.0"
 
@@ -21,6 +23,10 @@ object Kotlin {
     const val COROUTINES_ANDROID = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.KOTLINX_COROUTINES}"
 }
 
+/* room*/
+//implementation "androidx.room:room-runtime:2.2.6"
+//kapt "androidx.room:room-compiler:2.2.6"
+
 object AndroidX {
     const val CORE_KTX = "androidx.core:core-ktx:${Versions.CORE_KTX}"
     const val APP_COMPAT = "androidx.appcompat:appcompat:${Versions.APP_COMPAT}"
@@ -29,6 +35,9 @@ object AndroidX {
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT_KTX}"
 
     const val LIFECYCLE_VIEWMODEL_KTX = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.LIFECYCLE_VIEWMODEL_KTX}"
+
+    const val ROOM_RUNTIME = "androidx.room:room-runtime:${Versions.ROOM}"
+    const val ROOM_COMPILER = "androidx.room:room-compiler:${Versions.ROOM}"
 }
 
 object Google {

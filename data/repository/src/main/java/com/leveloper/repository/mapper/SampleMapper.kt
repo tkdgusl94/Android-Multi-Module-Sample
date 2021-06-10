@@ -1,6 +1,6 @@
 package com.leveloper.repository.mapper
 
-import com.leveloper.db.SampleEntity
+import com.leveloper.db.entity.SampleEntity
 import com.leveloper.model.data.Sample
 
 fun SampleEntity.toModel(): Sample {
