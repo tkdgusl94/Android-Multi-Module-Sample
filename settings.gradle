@@ -6,6 +6,5 @@ include ':feature:splash'
 
 include ':model'
 
-include ':data'
 include ':data:repository'
 include ':data:db'

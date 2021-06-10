@@ -6,4 +6,4 @@ plugins {
 }
 
 apply from: rootProject.file("android.gradle")
-apply from: rootProject.file("feature.gradle")
+apply from: rootProject.file("feature/feature.gradle")
