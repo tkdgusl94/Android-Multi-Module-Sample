@@ -1,4 +1,4 @@
-package com.leveloper.feature.sample
+package com.leveloper.sample
 
 import androidx.lifecycle.viewModelScope
 import com.leveloper.common.base.BaseViewModel

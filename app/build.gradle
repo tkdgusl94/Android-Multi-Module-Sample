@@ -10,7 +10,6 @@ apply from: rootProject.file("android.gradle")
 dependencies {
     implementation project(":model")
     implementation project(":feature:sample")
-    implementation project(":feature:splash")
     implementation project(":data:api")
     implementation project(":data:db")
     implementation project(":data:repository")

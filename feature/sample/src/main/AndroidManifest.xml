@@ -3,7 +3,7 @@
     package="com.leveloper.feature.sample">
 
     <application>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.leveloper.sample.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

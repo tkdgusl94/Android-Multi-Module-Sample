@@ -1,4 +1,4 @@
-package com.leveloper.feature.sample
+package com.leveloper.sample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -3,7 +3,6 @@ include ':app'
 
 include ':feature:common'
 include ':feature:sample'
-include ':feature:splash'
 
 include ':model'
 

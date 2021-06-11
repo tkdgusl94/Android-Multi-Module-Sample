@@ -1,4 +1,4 @@
-package com.leveloper.splash
+package com.leveloper.sample
 
 import org.junit.Test
 
