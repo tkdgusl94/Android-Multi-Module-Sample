@@ -17,6 +17,6 @@ open class BaseViewModel : ViewModel() {
     }
 
     fun showToast(message: String) {
-        _toast.value = Event(message)
+        _toast.postValue(Event(message))
     }
 }

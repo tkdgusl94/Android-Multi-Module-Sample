@@ -1,12 +1,10 @@
-package com.leveloper.sample
+package com.leveloper.common.base
 
 import android.os.Bundle
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
-import com.leveloper.common.base.BaseViewModel
-import com.leveloper.common.base.EventObserver
 import com.leveloper.common.ext.showToast
 
 abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel>(@LayoutRes private val layoutResId: Int)

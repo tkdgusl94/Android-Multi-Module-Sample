@@ -18,7 +18,7 @@ class MainViewModel @Inject constructor(
     init {
         viewModelScope.launch(Dispatchers.IO) {
             sampleRepository.getAllSamples().collect { list ->
-                println("list size: ${list.size}")
+                showToast("list size: ${list.size}")
             }
         }
     }
