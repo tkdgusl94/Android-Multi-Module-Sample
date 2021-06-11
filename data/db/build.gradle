@@ -14,6 +14,7 @@ dependencies {
     implementation(AndroidX.CORE_KTX)
     implementation(AndroidX.APP_COMPAT)
     implementation(AndroidX.ROOM_RUNTIME)
+    implementation(AndroidX.ROOM_KTX)
     kapt          (AndroidX.ROOM_COMPILER)
 
     implementation(Google.HILT_ANDROID)

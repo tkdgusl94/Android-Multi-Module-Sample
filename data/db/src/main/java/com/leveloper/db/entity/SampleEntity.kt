@@ -11,5 +11,5 @@ data class SampleEntity(
     var id: Long = 0,
 
     @field:ColumnInfo(name = "name")
-    var value: String = ""
+    var value: Long = 0L
 )
