@@ -4,6 +4,8 @@
     <bytecodeTargetLevel target="1.8">
       <module name="MultiModuleSample.app" target="11" />
       <module name="MultiModuleSample.buildSrc" target="11" />
+      <module name="MultiModuleSample.common.ui" target="11" />
+      <module name="MultiModuleSample.common.util" target="11" />
       <module name="MultiModuleSample.data.api" target="11" />
       <module name="MultiModuleSample.data.db" target="11" />
       <module name="MultiModuleSample.data.repository" target="11" />

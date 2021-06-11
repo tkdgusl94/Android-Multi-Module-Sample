@@ -6,8 +6,3 @@ plugins {
 }
 
 apply from: rootProject.file("feature/feature.gradle")
-
-dependencies {
-    implementation project(":model")
-    implementation project(":feature:common")
-}

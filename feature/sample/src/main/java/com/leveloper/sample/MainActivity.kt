@@ -1,9 +1,9 @@
 package com.leveloper.sample
 
 import androidx.activity.viewModels
-import com.leveloper.common.base.BaseActivity
 import com.leveloper.feature.sample.R
 import com.leveloper.feature.sample.databinding.ActivityMainBinding
+import com.leveloper.ui.base.BaseActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

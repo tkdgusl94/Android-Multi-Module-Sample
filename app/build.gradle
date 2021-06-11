@@ -9,7 +9,8 @@ apply from: rootProject.file("android.gradle")
 
 dependencies {
     implementation project(":model")
-    implementation project(":feature:common")
+    implementation project(":common:ui")
+    implementation project(":common:util")
     implementation project(":feature:sample")
     implementation project(":data:api")
     implementation project(":data:db")

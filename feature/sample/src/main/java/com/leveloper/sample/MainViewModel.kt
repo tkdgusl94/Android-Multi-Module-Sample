@@ -1,9 +1,9 @@
 package com.leveloper.sample
 
 import androidx.lifecycle.viewModelScope
-import com.leveloper.common.base.BaseViewModel
 import com.leveloper.model.data.Sample
 import com.leveloper.model.repository.SampleRepository
+import com.leveloper.ui.base.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
