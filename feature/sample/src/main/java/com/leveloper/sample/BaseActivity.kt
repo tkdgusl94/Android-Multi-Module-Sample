@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import com.leveloper.common.base.BaseViewModel
+import com.leveloper.common.base.EventObserver
+import com.leveloper.common.ext.showToast
 
 abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel>(@LayoutRes private val layoutResId: Int)
     : AppCompatActivity(layoutResId) {
@@ -27,9 +29,9 @@ abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel>(@LayoutRes p
     }
 
     open fun subscribeToLiveData() {
-//        vm.toast.observe(this, EventObserver {
-//            showToast(it)
-//        })
+        vm.toast.observe(this, EventObserver {
+            showToast(it)
+        })
     }
 
     private fun performDataBinding() {

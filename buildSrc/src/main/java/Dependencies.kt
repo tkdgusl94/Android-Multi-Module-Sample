@@ -1,6 +1,7 @@
 object Versions {
     const val KOTLIN_VERSION = "1.5.10"
     const val KOTLINX_COROUTINES = "1.5.0"
+    const val BUILD_GRADLE = "4.2.1"
 
     const val CORE_KTX = "1.5.0"
     const val APP_COMPAT = "1.3.0"
@@ -25,10 +26,6 @@ object Kotlin {
     const val COROUTINES_CORE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.KOTLINX_COROUTINES}"
     const val COROUTINES_ANDROID = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.KOTLINX_COROUTINES}"
 }
-
-/* room*/
-//implementation "androidx.room:room-runtime:2.2.6"
-//kapt "androidx.room:room-compiler:2.2.6"
 
 object AndroidX {
     const val CORE_KTX = "androidx.core:core-ktx:${Versions.CORE_KTX}"
