@@ -1,9 +1,9 @@
-package com.leveloper.db.intenal
+package com.leveloper.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.leveloper.db.entity.SampleEntity
-import com.leveloper.db.intenal.dao.SampleDao
+import com.leveloper.db.dao.SampleDao
 
 @Database(
     entities = [SampleEntity::class],

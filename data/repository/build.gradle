@@ -9,7 +9,6 @@ apply from: rootProject.file('android.gradle')
 
 dependencies {
     implementation project(":model")
-    implementation project(":data:api")
     implementation project(":data:db")
 
     implementation(Kotlin.KOTLIN_STDLIB)

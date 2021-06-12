@@ -3,9 +3,9 @@ package com.leveloper.db.di
 import android.content.Context
 import androidx.room.Room
 import com.leveloper.db.LocalDataSource
-import com.leveloper.db.intenal.LocalDataSourceImpl
-import com.leveloper.db.intenal.dao.SampleDao
-import com.leveloper.db.intenal.SampleDatabase
+import com.leveloper.db.LocalDataSourceImpl
+import com.leveloper.db.dao.SampleDao
+import com.leveloper.db.SampleDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

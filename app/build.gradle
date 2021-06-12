@@ -12,7 +12,6 @@ dependencies {
     implementation project(":common:ui")
     implementation project(":common:util")
     implementation project(":feature:sample")
-    implementation project(":data:api")
     implementation project(":data:db")
     implementation project(":data:repository")
 

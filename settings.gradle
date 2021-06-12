@@ -3,12 +3,10 @@ include ':app'
 
 include ':common:ui'
 include ':common:util'
+
 include ':feature:sample'
 
 include ':model'
 
 include ':data:repository'
 include ':data:db'
-include ':data:api'
-include ':common:ui'
-include ':common:util'

@@ -1,4 +1,4 @@
-package com.leveloper.db.intenal.dao
+package com.leveloper.db.dao
 
 import androidx.room.Dao
 import androidx.room.Insert

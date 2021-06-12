@@ -8,6 +8,8 @@ plugins {
 apply from: rootProject.file('android.gradle')
 
 dependencies {
+    implementation project(":model")
+    
     implementation(Kotlin.KOTLIN_STDLIB)
     implementation(Kotlin.COROUTINES_CORE)
 

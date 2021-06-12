@@ -1,10 +1,9 @@
-package com.leveloper.repository.internal.impl
+package com.leveloper.repository
 
 import com.leveloper.db.LocalDataSource
 import com.leveloper.model.data.Sample
 import com.leveloper.model.repository.SampleRepository
-import com.leveloper.repository.internal.mapper.toEntity
-import com.leveloper.repository.internal.mapper.toModel
+import com.leveloper.repository.mapper.SampleEntityMapper
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
@@ -14,13 +13,13 @@ internal class SampleRepositoryImpl @Inject constructor(
 ) : SampleRepository {
 
     override suspend fun insertSample(sample: Sample) {
-        localDataSource.insertSample(sample.toEntity())
+        val entity = SampleEntityMapper.to(sample)
+        localDataSource.insertSample(entity)
     }
 
     override suspend fun getAllSamples(): Flow<List<Sample>> {
-        println("sampleRepository getAllSamples")
         return localDataSource.getAllSamples().map { list ->
-            list.map { it.toModel() }
+            list.map { SampleEntityMapper.from(it) }
         }
     }
 }
